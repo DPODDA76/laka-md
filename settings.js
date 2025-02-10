@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 //👉Put Your Session Id👈 කියන එක කපලා අයින් කරලා ඔයාගේ Session id එක දාන්න.
 
-SESSION_ID: process.env.SESSION_ID || "LAKA-MD=9tI2CCiA#g8qzh0ho5DlRJ_rRqPsDwfMScjZNoQz9XjM49gNsi2Y",
+SESSION_ID: process.env.SESSION_ID || "LAKA-MD=19ojwKzR#_5nZaSKNTLs9gkrqyw0J8cL3HEYbACUO2T2p0ZVJVPM",
 
 
 //=================================================
@@ -28,7 +28,7 @@ AUTO_BLOCK: process.env.AUTO_BLOCK === undefined ? "false" : process.env.AUTO_BL
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
 ALLWAYS_OFFLINE: process.env.AUTO_READ_STATUS === undefined ? "false" : process.env.AUTO_READ_STATUS,
 READ_MESSAGE: process.env.READ_MESSAGE === undefined ? "false" : process.env.READ_MESSAGE,
-READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
+READ_CMD: process.env.READ_CMD === undefined ? "true" : process.env.READ_CMD,
 ALWAYS_RECORDING: process.env.ALWAYS_RECORDING === undefined ? "false" : process.env.ALWAYS_RECORDING,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "true" : process.env.AUTO_REACT,
 BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD_NO_BLOCK,
